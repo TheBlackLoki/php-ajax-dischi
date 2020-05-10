@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1e2d3b;
+}
+
+header {
+  height: 50px;
+  background-color: #2e3a46;
+}
+
+header img {
+  position: absolute;
+  top: 10px;
+  left: 22vw;
+}
+
+.libreriaMusica {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.libreriaMusica .brano {
+  width: 20%;
+  background-color: #2e3a46;
+  margin: 10px 15px;
+  text-align: center;
+}
+
+.libreriaMusica .brano img {
+  width: 100%;
+  height: auto;
+  padding: 10%;
+}
+
+.libreriaMusica .brano h3 {
+  color: white;
+  padding-bottom: 10%;
+}
+
+.libreriaMusica .brano span {
+  display: block;
+  color: #77787a;
+}
+

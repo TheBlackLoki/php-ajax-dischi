@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(30, 45, 59);
+}
+header{
+  height: 50px;
+  background-color: rgb(46, 58, 70);
+  img {
+    position: absolute;
+    top: 10px;
+    left: 22vw;
+  }
+}
+.libreriaMusica{
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: auto;
+  margin-top: 60px;
+
+  .brano{
+    width: 20%;
+    background-color: rgb(46, 58, 70);
+    margin:10px 15px;
+    text-align: center;
+    img{
+      width: 100%;
+      height: auto;
+      padding: 10%;
+    }
+    h3{
+      color: white;
+      padding-bottom: 10%;
+    }
+    span{
+      display: block;
+      color: rgb(119, 120, 122);
+    }
+  }
+
+}
